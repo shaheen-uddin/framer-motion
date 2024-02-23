@@ -1,13 +1,19 @@
+import Box from "./components/Box";
+import Box1 from "./components/Box1";
 import Simple from "./components/Simple";
+import Box2 from "./components/Box2";
+import Box3 from "./components/Box3";
+import Box4 from "./components/Box4";
 
 function App() {
   return (
     <>
-      <h2 className="bg-orange-400 text-2xl font-bold p-4">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, soluta
-        reprehenderit. Itaque!
-      </h2>
       <Simple />
+      <Box />
+      <Box1 />
+      <Box2 />
+      <Box3 />
+      <Box4 />
     </>
   );
 }
