@@ -1,3 +1,5 @@
+import Simple from "./components/Simple";
+
 function App() {
   return (
     <>
@@ -5,6 +7,7 @@ function App() {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, soluta
         reprehenderit. Itaque!
       </h2>
+      <Simple />
     </>
   );
 }
